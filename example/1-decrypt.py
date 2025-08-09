@@ -23,7 +23,7 @@ def dump_v3():
     """
     解析微信3.x版本的数据库
     """
-    version_list_path = '../wxManager/decrypt/version_list.json'
+    version_list_path = 'wxManager/decrypt/version_list.json'
     with open(version_list_path, "r", encoding="utf-8") as f:
         version_list = json.loads(f.read())
     r_3 = get_info_v3(version_list)  # 微信3.x

@@ -12,8 +12,8 @@ import time
 
 from wxManager import DatabaseConnection
 
-db_dir = ''  # 第一步解析后的数据库路径，例如：./wxid_xxxx/db_storage
-db_version = 4  # 数据库版本，4 or 3
+db_dir = './icekree/Msg'  # 第一步解析后的数据库路径
+db_version = 3  # 数据库版本，3.x
 
 conn = DatabaseConnection(db_dir, db_version)  # 创建数据库连接
 database = conn.get_interface()  # 获取数据库接口

@@ -24,3 +24,5 @@ server
 *.spec
 test*
 wordcloud.html
+icekree
+exported_data
